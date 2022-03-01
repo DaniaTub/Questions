@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-//Array of strings, return the letter that is the most common ( appeared in all strings in the array )
+//Array of strings, return the word that is the most common ( appeared in all strings in the array )
 public class QuestionFive {
     public static void main(String[] args)
     {
-        String arr[] = { "geeks", "for", "geeks", "a",
-                "portal", "to", "learn", "can", "be",
-                "computer", "science", "zoom", "yup",
-                "fire", "in", "be", "data", "geeks" };
+        String arr[] = { "ٍRafik", "for", "geeks", "a",
+                "portal", "to", "ٍRafik", "ٍRafik", "be",
+                "ٍRafik", "ٍRafik", "zoom", "yup",
+                "ٍRafik", "in", "be", "ٍRafik", "geeks" };
         String mostCommonWord = findWord(arr);
         System.out.println(mostCommonWord);
     }
@@ -31,7 +31,6 @@ public class QuestionFive {
         String key = "";
         int value = 0;
         for (Map.Entry<String, Integer> me : set) {
-            // Check for word having highest frequency
             if (me.getValue() > value) {
                 value = me.getValue();
                 key = me.getKey();
@@ -39,6 +38,5 @@ public class QuestionFive {
         }
         return key;
     }
-
 }
 
