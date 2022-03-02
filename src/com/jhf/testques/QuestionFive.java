@@ -13,6 +13,7 @@ public class QuestionFive {
                 "ٍRafik", "ٍRafik", "zoom", "yup",
                 "ٍRafik", "in", "be", "ٍRafik", "geeks" };
         String mostCommonWord = findWord(arr);
+
         System.out.println(mostCommonWord);
     }
     static String findWord(String[] arr)

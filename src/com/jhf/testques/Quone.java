@@ -7,7 +7,7 @@ public class Quone {
     //Input:  {2, 3, 7, 6, 8, -1, -10, 15}
     // Output: 1
     public static void main(String args[]) {
-        int arr[] = new int[]{2, 3, 7, 6, 8, -1, -10, 15};
+        int arr[] = new int[]{1, 2, 3, 6, 8, -1, -10, 15};
         int out = getSmall(arr);
         System.out.println(out);
     }

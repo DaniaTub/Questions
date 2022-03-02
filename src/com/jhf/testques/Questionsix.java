@@ -4,7 +4,7 @@ import java.util.*;
     public class Questionsix {
     public static void main(String[] args)
     {
-        Vector<String> str = new Vector<String>();
+        Vector<String> str = new Vector<String>()   ;
         str.add("animal");
         str.add("zebra");
         str.add("lion");
