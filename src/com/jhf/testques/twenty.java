@@ -3,14 +3,12 @@ import java.util.Arrays;
 //Is string Argum
 public class twenty {
 
-    public static void main(String[] args) {
-
-        String name1 = "Dawod" ;
-        String name2 ="woadD";
-
+    public static void main(String[] args)
+    {
+        String name1 = "cinema" ;
+        String name2 ="iceman";
         System.out.println(isAnagram(name1, name2));
     }
-
     public static boolean isAnagram (String str1 , String str2)
     {
         boolean res = false;

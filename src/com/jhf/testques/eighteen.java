@@ -1,13 +1,12 @@
 package com.jhf.testques;
 //reverse String
-
 public class eighteen {
-
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         String str = new String("Loen");
-
         revreseString1(str);
-
+      //  reverseString2(str);
+      //  reverseStringRec(str);
     }
 
     public static void revreseString1(String str) {
@@ -26,7 +25,6 @@ public class eighteen {
             System.out.print(charArr[i]);
         }
     }
-
     public static void reverseString2(String str) {
         String reverseStr = "";
         for (int i = str.length() - 1; i >= 0; i++) {
@@ -34,13 +32,11 @@ public class eighteen {
         }
         System.out.println("the reverse String is " + reverseStr);
     }
-
     public static String reverseStringRec(String str) {
         if (str.length() == 1) {
             return str;
         } else {
             return str.charAt(str.length() - 1) + reverseStringRec(str.substring(0, str.length() - 1));
-
         }
     }
 
